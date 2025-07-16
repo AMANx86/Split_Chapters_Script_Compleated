@@ -7,14 +7,14 @@ What each one does is Told bellow
 ## final_validator.py
 Takes the Folder chapters_txt(txt) and chapters_txt(epub) generated from the split_epub.py and split_txt.py and cross checks them to see if they are worthy to survive if yes they are sent to chapters_txt
 
-##split_txt.py
+## split_txt.py
 takes a large txt and splits it into multiple chapters based on the chapters header
 
-##split_epub.py
+## split_epub.py
 takes a large EPUB and splits it into multiple chapters based on the Metadata
 
-##rename_and_merge.py
+## rename_and_merge.py
 renames and merges the files by reading the fiile header and file name
 
-##controller.py
+## controller.py
 Controls everything.
